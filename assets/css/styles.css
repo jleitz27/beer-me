@@ -1,0 +1,107 @@
+:root{
+    --primary-color:#ffcf40;
+    --secondary-color:  #999999;
+}
+
+header {
+    background-image:url('../Images/Beerpic1.png');
+    background-color:var(--primary-color);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: var(--primary-color); 
+}
+
+header h1 {
+    text-align: left;
+    word-break:break-all;
+    width: 70%;
+}
+
+.search {
+    display: flex;
+    justify-items: auto;
+}
+
+.search div {
+    background-color: white;
+    border-radius:30px;
+    box-shadow: 0px 3px 6px #00000029;;
+}
+
+input {
+    border-radius: 25px;
+    border: 4px;
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+
+button {
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+    float: right;
+
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    border: solid 2px;
+    flex-basis: content;
+}  
+
+.flex2 {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding-left: 20px; 
+}  
+
+.card-header {
+    justify-items: center;
+}
+
+.flex2 h3 {
+    font-weight: bold;
+}
+
+.card-content {
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    word-break: break-all;
+    text-align: left;
+    margin-left: 50px;
+    line-height: normal;
+}
+
+
+
+.material-icons {
+    align-self: center;
+    margin: left;
+    font-size: 30px !important;
+    margin: 10px 10px 0px 0px;
+
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
